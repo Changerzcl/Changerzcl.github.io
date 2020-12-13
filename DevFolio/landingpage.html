@@ -21,10 +21,6 @@
   <!-- code from Google Optimize -->   
   <script src="https://www.googleoptimize.com/optimize.js?id=OPT-PVDLFLS"></script>
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -34,6 +30,10 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
 
   <!-- =======================================================
   * Template Name: DevFolio - v2.3.0
@@ -74,6 +74,15 @@
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#contact">Contact</a>
           </li>
+          <li class="nav-item">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="song/genre/post/..." aria-label="Search for...">
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary btn-search" type="button">
+                    <span class="ion-android-search"></span>
+                  </button>
+              </div>
+          </li>
         </ul>
       </div>
     </div>
@@ -88,6 +97,7 @@
           <!--<p class="display-6 color-d">Hello, world!</p>-->
           <h1 class="intro-title mb-4">I am OriginSpacer</h1>
           <p class="intro-subtitle"><span class="text-slider-items">Original Musician,Singer,Lyricist,Original Song Lover,Composer</span><strong class="text-slider"></strong></p>
+          <h1 class="intro-title mb-4"><a href="#community">Join the community for free now!</a></h1>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
       </div>
@@ -118,10 +128,10 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><a href=""><ion-icon name="musical-notes"></ion-icon></a></span>
+                <span class="ico-circle"><a href="#recommendation"><ion-icon name="musical-notes"></ion-icon></a></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title"><a href="">Editor's Recommendtion</a></h2>
+                <h2 class="s-title"><a href="#recommendation">Editor's Recommendtion</a></h2>
                 <p class="s-description text-center">
                   Feeling out of sparks and songs? Click here to see what our editor has recommended! Songs that may give you sparks are waiting for you.
                 </p>
@@ -131,10 +141,10 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><a href=""><ion-icon name="radio-outline"></ion-icon></a></span>
+                <span class="ico-circle"><a href="#genre"><ion-icon name="radio-outline"></ion-icon></a></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title"><a href="">Your Genre</a></h2>
+                <h2 class="s-title"><a href="#genre">Your Genre</a></h2>
                 <p class="s-description text-center">
                   Here, we have prepared you various genres of original songs and you will surely find your own taste! Just by one click! 
                 </p>
@@ -144,10 +154,10 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><a href=""><ion-icon name="share-social-outline"></ion-icon></a></span>
+                <span class="ico-circle"><a href="#community"><ion-icon name="share-social-outline"></ion-icon></a></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title"><a href="">Community</a></h2>
+                <h2 class="s-title"><a href="#community">Community</a></h2>
                 <p class="s-description text-center">
                   Whether you are a musician of any aspect, you will find your ideal partner here. Join and enjoy our warm community! Hey! Come on! 
                 </p>
@@ -157,10 +167,7 @@
           
     </section><!-- End Services Section -->
 
-    <!-- ======= Counter Section ======= -->
-    <!-- End Counter Section -->
-
-    <!-- ======= Portfolio Section ======= -->
+    <!-- ======= Recommendation Section ======= -->
     <section id="recommendation" class="portfolio-mf sect-pt4 route">
       <div class="container">
         <div class="row">
@@ -171,6 +178,7 @@
               </h3>
               <p class="subtitle-a">
                 Click here to see what our editor has recommended!
+                <br>Update once a week!</br>
               </p>
               <div class="line-mf"></div>
             </div>
@@ -194,7 +202,7 @@
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                      <a href="rsong1.html"> <span class="ion-ios-plus-outline"></span></a>
                     </div>
                   </div>
                 </div>
@@ -213,12 +221,12 @@
                   <div class="col-sm-8">
                     <h2 class="w-title">Manta</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">ALternative</span> / <span class="w-date">2019.12</span>
+                      <span class="w-ctegory">Alternative</span> / <span class="w-date">2019.12</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
-                      <a href=""> <span class="ion-ios-plus-outline"></span></a>
+                      <a href="rsong2.html"> <span class="ion-ios-plus-outline"></span></a>
                     </div>
                   </div>
                 </div>
@@ -242,7 +250,7 @@
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
-                      <a href=""> <span class="ion-ios-plus-outline"></span></a>
+                      <a href="rsong3.html"> <span class="ion-ios-plus-outline"></span></a>
                     </div>
                   </div>
                 </div>
@@ -266,7 +274,7 @@
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
-                      <a href=""> <span class="ion-ios-plus-outline"></span></a>
+                      <a href="rsong4.html"> <span class="ion-ios-plus-outline"></span></a>
                     </div>
                   </div>
                 </div>
@@ -290,7 +298,7 @@
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
-                      <a href=""> <span class="ion-ios-plus-outline"></span></a>
+                      <a href="rsong5.html"> <span class="ion-ios-plus-outline"></span></a>
                     </div>
                   </div>
                 </div>
@@ -314,7 +322,7 @@
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
-                      <a href=""> <span class="ion-ios-plus-outline"></span></a>
+                      <a href="rsong6.html"> <span class="ion-ios-plus-outline"></span></a>
                     </div>
                   </div>
                 </div>
@@ -324,8 +332,9 @@
 
         </div>
       </div>
-    </section><!-- End Portfolio Section -->
-
+    </section>
+    <!-- End Recommendation Section -->
+    <!-- ======= Genre Section ======= -->
     <section id="genre" class="portfolio-mf sect-pt4 route">
       <div class="container">
         <div class="row">
@@ -335,17 +344,108 @@
                 Genre
               </h3>
               <p class="subtitle-a">
-                Coming soon!
+                Please select the genre you like: 
               </p>
-              <div class="line-mf"></div>
+              
+              <div class="center aligned column">
+                <div class="ui horizontal bulleted link list" id="selection_recommendationtype">
+                  <a class="item" style="font-size: 18px; font-family: fzdbs;" onclick="allview()">All</a>
+                  <a class="item" style="font-size: 18px; font-family: fzdbs;" onclick="popview()">Pop</a>
+                  <a class="item" style="font-size: 18px; font-family: fzdbs;" onclick="folkview()">Folk</a>
+                  <a class="item" style="font-size: 18px; font-family: fzdbs;" onclick="alternativeview()">Alternative</a>
+                  <a class="item" style="font-size: 18px; font-family: fzdbs;" onclick="rnbview()">R&B</a>
+                  <a class="item" style="font-size: 18px; font-family: fzdbs;" onclick="rockview()">Rock</a>
+                </div>            
+              </div>
+              <div id="default_dataview" style="margin-top: 20px; margin-bottom: 40px;">
+                <iframe class="airtable-embed" src="https://airtable.com/embed/shr7s4Hs51F558rZr?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
             </div>
+            <div id="selected_dataview" style="margin-top: 20px; margin-bottom: 40px;">
           </div>
         </div>
-        
-
-        </div>
       </div>
-    </section><!-- End Portfolio Section -->
+    </section>
+
+    <script>
+
+        function allview(){
+          document.getElementById('default_dataview').style.display="none";
+          document.getElementById('selected_dataview').innerHTML='<iframe class="airtable-embed" src="https://airtable.com/embed/shr7s4Hs51F558rZr?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>';
+        };
+
+        function popview(){
+          document.getElementById('default_dataview').style.display="none";
+          document.getElementById('selected_dataview').innerHTML='<iframe class="airtable-embed" src="https://airtable.com/embed/shr4XXuItOrg1Wm1Q?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>';
+        };
+    
+        function folkview(){
+          document.getElementById('default_dataview').style.display="none";
+          document.getElementById('selected_dataview').innerHTML='<iframe class="airtable-embed" src="https://airtable.com/embed/shrLEBEllcvmyh9U7?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>';
+        };
+
+        function alternativeview(){
+          document.getElementById('default_dataview').style.display="none";
+          document.getElementById('selected_dataview').innerHTML='<iframe class="airtable-embed" src="https://airtable.com/embed/shrS0xx4psEvAVZfa?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>';
+        };
+        
+        function rnbview(){
+          document.getElementById('default_dataview').style.display="none";
+          document.getElementById('selected_dataview').innerHTML='<iframe class="airtable-embed" src="https://airtable.com/embed/shr8xWdBVUVeNEgeu?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>';
+        };
+
+        function rockview(){
+          document.getElementById('default_dataview').style.display="none";
+          document.getElementById('selected_dataview').innerHTML='<iframe class="airtable-embed" src="https://airtable.com/embed/shrKGy0BSJAL7P5CD?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>';
+        };
+
+    </script>
+<section id="region" class="portfolio-mf sect-pt4 route">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="title-box text-center">
+          <h3 class="title-a">
+            Region
+          </h3>
+          <p class="subtitle-a">
+            Please select the region: 
+          </p>
+          
+          <div class="center aligned column">
+            <div class="ui horizontal bulleted link list" id="selection_recommendationtype">
+              <a class="item" style="font-size: 18px; font-family: fzdbs;" onclick="regionallview()">All</a>
+              <a class="item" style="font-size: 18px; font-family: fzdbs;" onclick="mainlandview()">Mainland</a>
+              <a class="item" style="font-size: 18px; font-family: fzdbs;" onclick="hktwview()">Hongkong & Taiwan</a>
+            </div>            
+          </div>
+          <div id="regiondefault_dataview" style="margin-top: 20px; margin-bottom: 40px;">
+            <iframe class="airtable-embed" src="https://airtable.com/embed/shr7s4Hs51F558rZr?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+        </div>
+        <div id="regionselected_dataview" style="margin-top: 20px; margin-bottom: 40px;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+
+    function regionallview(){
+      document.getElementById('regiondefault_dataview').style.display="none";
+      document.getElementById('regionselected_dataview').innerHTML='<iframe class="airtable-embed" src="https://airtable.com/embed/shr7s4Hs51F558rZr?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>';
+    };
+
+    function mainlandview(){
+      document.getElementById('regiondefault_dataview').style.display="none";
+      document.getElementById('regionselected_dataview').innerHTML='<iframe class="airtable-embed" src="https://airtable.com/embed/shrYTmlnmNbpetGKt?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>';
+    };
+
+    function hktwview(){
+      document.getElementById('regiondefault_dataview').style.display="none";
+      document.getElementById('regionselected_dataview').innerHTML='<iframe class="airtable-embed" src="https://airtable.com/embed/shrnzBBYufTf2QZnM?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>';
+    };
+
+</script>
+    <!-- End Genre Section -->
 
     <section id="community" class="blog-mf sect-pt4 route">
       <div class="container">
@@ -358,6 +458,8 @@
               <p class="subtitle-a">
                 Here, you can find your ideal creator partner of various roles.
               </p>
+              <div class="service-content">
+                <h2 class="s-title"><a href="newpost.html">+ Create new posts</a></h2>
               <div class="line-mf"></div>
             </div>
           </div>
@@ -366,7 +468,7 @@
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-1.jpg" alt="" class="img-fluid"></a>
+                <a href="postdetail.html"><img src="assets/img/post-1.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
@@ -374,19 +476,15 @@
                     <h6 class="category">Lyrics</h6>
                   </div>
                 </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about my lyrics</a></h3>
+                <h3 class="card-title"><a href="postdetail.html">求大佬帮忙看看我的歌词</a></h3>
                 <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
+                  这首歌的主要部分我已经写完了，配了一段歌词，不知道有没有人想一起完成这首歌？
                 </p>
               </div>
               <div class="card-footer">
                 <div class="post-author">
-                  <a href="#">
                     <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
-                  </a>
+                    <span class="author">ZHANG Chenlin</span>
                 </div>
                 <div class="post-date">
                   <span class="ion-ios-clock-outline"></span> 10 min
@@ -397,7 +495,7 @@
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-3.jpg" alt="" class="img-fluid"></a>
+                <img src="assets/img/post-2.jpg" alt="" class="img-fluid">
               </div>
               <div class="card-body">
                 <div class="card-category-box">
@@ -405,22 +503,18 @@
                     <h6 class="category">Melody</h6>
                   </div>
                 </div>
-                <h3 class="card-title"><a href="blog-single.html">Excellent melody for you</a></h3>
+                <h3 class="card-title"><a href="#">写好的旋律，挺不错的！</a></h3>
                 <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
+                  我写旋律，你填词，具体好商量！
                 </p>
               </div>
               <div class="card-footer">
                 <div class="post-author">
-                  <a href="#">
                     <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
-                  </a>
+                    <span class="author">ZHANG Chenlin</span>
                 </div>
                 <div class="post-date">
-                  <span class="ion-ios-clock-outline"></span> 10 min
+                  <span class="ion-ios-clock-outline"></span> 1 hr
                 </div>
               </div>
             </div>
@@ -428,7 +522,7 @@
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-3.jpg" alt="" class="img-fluid"></a>
+                <img src="assets/img/post-3.jpg" alt="" class="img-fluid">
               </div>
               <div class="card-body">
                 <div class="card-category-box">
@@ -436,22 +530,18 @@
                     <h6 class="category">Vocal</h6>
                   </div>
                 </div>
-                <h3 class="card-title"><a href="blog-single.html">Who can sing this for me?</a></h3>
+                <h3 class="card-title"><a href="#">有没有大Vocal能帮忙试一下我的demo？</a></h3>
                 <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
+                  这首歌偏摇滚，可能需要有爆发力的嗓音，有条件的哥哥姐姐来试一试呀！有偿！
                 </p>
               </div>
               <div class="card-footer">
                 <div class="post-author">
-                  <a href="#">
                     <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
-                  </a>
+                    <span class="author">ZHANG Chenlin</span>
                 </div>
                 <div class="post-date">
-                  <span class="ion-ios-clock-outline"></span> 10 min
+                  <span class="ion-ios-clock-outline"></span> 42 min
                 </div>
               </div>
             </div>
@@ -472,7 +562,7 @@
                   <div class="col-md-6">
                     <div class="title-box-2">
                       <h5 class="title-left">
-                        Send Message Us
+                        Send Us Message
                       </h5>
                     </div>
                     <div>
@@ -517,28 +607,17 @@
                   <div class="col-md-6">
                     <div class="title-box-2 pt-4 pt-md-0">
                       <h5 class="title-left">
-                        Get in Touch
+                        We want your feedback!
                       </h5>
                     </div>
                     <div class="more-info">
                       <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                        expedita aperiam aliquid at.
-                        Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                        mollitia inventore?
+                        Help us improve our website and your experience. Your advice is always helpful!
                       </p>
                       <ul class="list-ico">
-                        <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                        <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                        <li><span class="ion-email"></span> contact@example.com</li>
-                      </ul>
-                    </div>
-                    <div class="socials">
-                      <ul>
-                        <li><a href=""><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="ion-social-pinterest"></i></span></a></li>
+                        <li><span class="ion-ios-location"></span> Beijing, China</li>
+                        <li><span class="ion-ios-telephone"></span> (010) 0000-0000</li>
+                        <li><span class="ion-email"></span> 1155151471@link.cuhk.edu.hk</li>
                       </ul>
                     </div>
                   </div>
@@ -592,6 +671,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  
 </body>
 
 </html>
